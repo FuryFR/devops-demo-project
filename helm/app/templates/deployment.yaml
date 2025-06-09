@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: {{ .Values.appName }}
-        image: {{ .Values.image.githubID }}/{{ .Values.image.repository }}:{{ .Values.image.tag }}
+        image: "naelduval/demo-java-app:v1.0"
         ports:
         - containerPort: 8080
