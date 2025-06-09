@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: {{ .Values.appName }}
-        image: "naelduval/demo-java-app:v1.0"
+        image: "naelduval/demo-java-app:V1.0"
         ports:
         - containerPort: 8080
